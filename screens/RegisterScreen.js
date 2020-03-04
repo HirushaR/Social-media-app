@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import {View, Text, StyleSheet } from 'react-native'
 
-export default class loadingScreen extends React.Component {
+export default class RegisterScreen extends React.Component {
     render(){
         return (
             <View style={styles.container}>
-                <Text>loadingScreen</Text>
+                <Text>Register Screen</Text>
             </View>
         );
     }
